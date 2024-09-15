@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
 
  
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/q.png">
+  <link rel="icon" type="image/png"  href="assets/img/q.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>قيم العقارية</title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
@@ -113,7 +113,7 @@
       
        
       </div>
-      <img src="assets/img/en.png"  style="float:left; width: 60px; ">
+      <img src="assets/img/Artboard 1.png"  style="float:left; width: 60px; ">
     </div>
   </nav>
     <!-- Your content goes here -->
@@ -127,7 +127,7 @@
             <div class="card">
               <div class="card-header">
               <div dir="rtl" class="sidebar">
-
+<h3>قائمة المحتويات </h3>
                 <ul class="nav nav-tabs justify-content-center" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" data-toggle="tab" href="#home" role="tab">
