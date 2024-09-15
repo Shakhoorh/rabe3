@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
 
  
-  <link rel="icon" type="image/png"  href="assets/img/q.png">
+  <link rel="icon" type="image/png"  href="assets/img/qf.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>قيم العقارية</title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
@@ -119,17 +119,27 @@
     <!-- Your content goes here -->
     <div class="section section-tabs">
       <div class="container">
-      <br><br><p style="text-align: right;"> مزاد ربيع الرياض - إطلاق تجريبي</P>
-        <div class="row">
+      <br>
+      <div class="col-md-10 ml-auto col-xl-12 mr-auto">
+
+      <p style="text-align: right;"> مزاد ربيع الرياض - إطلاق تجريبي</P>
+      </div>      
+<div class="row">
           <div class="col-md-10 ml-auto col-xl-12 mr-auto">
             <p class="category">    </p>
             <!-- Nav tabs -->
             <div class="card">
+              
               <div class="card-header">
+              
               <div dir="rtl" class="sidebar">
-<h3>قائمة المحتويات </h3>
+              
                 <ul class="nav nav-tabs justify-content-center" role="tablist">
+              <li class="nav-item">
+              <h4 style="text-align: right;">قائمة المحتويات </h4>
+                </li>
                 <li class="nav-item">
+                  
                     <a class="nav-link active" data-toggle="tab" href="#home" role="tab">
                         معرض الصور
                         &nbsp;&nbsp; </a>
@@ -195,7 +205,11 @@
 
 
                   <div class="tab-pane active" id="home" role="tabpanel">
+                  <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+<a href="https://logwork.com/countdown-gg9g" class="countdown-timer" data-style="circles" data-timezone="Asia/Riyadh" data-date="2024-09-20 10:00" data-background="#3b9ccc"> </a>
+      
                   <div class="section" id="carousel">
+                    
       <div class="container">
         
         <div class="row justify-content-center">
