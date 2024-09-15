@@ -149,11 +149,7 @@
                         البروشور
                         &nbsp;&nbsp; </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#profile" role="tab">
-                       وثائق الفرصة
-                       &nbsp;&nbsp;</a>
-                  </li>
+                 
                   <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#codes" role="tab">
                        اكواد  البناء
@@ -186,11 +182,11 @@
                     الشراكات البنكية  
                     &nbsp;</a>
                   </li>
-                  <li class="nav-item">
+                  <!--<li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
                        اتصل بنا 
                        &nbsp;&nbsp; </a>
-                  </li>
+                  </li>-->
                 </ul>
 
 </div>
