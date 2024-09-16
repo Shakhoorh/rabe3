@@ -25,7 +25,7 @@
     /* Custom styles for the right sidebar */
     .sidebar {
       height: 100%;
-      width: 260px;
+      width: 230px;
       position: fixed;
       right: 0;
       top: 80px;
