@@ -44,7 +44,7 @@
 
     .sidebar a:hover {
       color: #f1f1f1;
-      background-color: #495057;
+      background-color: #243d61;
     }
 
     /* Add padding to the content to prevent overlap */
@@ -135,9 +135,7 @@
               <div dir="rtl" class="sidebar">
               
                 <ul class="nav nav-tabs justify-content-center" role="tablist">
-              <li class="nav-item">
-              <h4 style="text-align: right;">قائمة المحتويات </h4>
-                </li>
+             
                 <li class="nav-item">
                   
                     <a class="nav-link active" data-toggle="tab" href="#home" role="tab">
