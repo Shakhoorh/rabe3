@@ -310,13 +310,13 @@ iframe {
 </a>
                     </li>
                     <li class="nav-item">
-                    <a style="background-color: pink; color: white;" class="nav-link" data-toggle="tab" href="#p2" role="tab">
+                    <a style="background-color: #cc43c7; color: white;" class="nav-link" data-toggle="tab" href="#p2" role="tab">
     <i class="fas fa-file-pdf"></i> T4.1
 </a>
 
                     </li>
                     <li class="nav-item">
-                    <a style="background-color: purple; color: black;" class="nav-link" data-toggle="tab" href="#p3" role="tab">
+                    <a style="background-color: purple; color: white;" class="nav-link" data-toggle="tab" href="#p3" role="tab">
     <i class="fas fa-file-pdf"></i> T4.2
 </a>
 
