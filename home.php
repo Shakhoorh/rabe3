@@ -182,7 +182,7 @@
                     <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
                         حلول البيع
                     </a>
-                  </li>
+                  </li><br>
                  <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
                        اتصل بنا 
