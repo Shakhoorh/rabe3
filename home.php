@@ -158,11 +158,6 @@
               
                 
                   <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
-                        حلول البيع
-                    </a>
-                  </li>
-                  <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#promo" role="tab">
                        الفيديو التسويقي
                        &nbsp;</a>
@@ -174,7 +169,7 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#gograph1" role="tab">
-                     حكاية حي الربيع  <br> 1986-2024
+                     حكاية حي الربيع  <br> 2024 - 1986
                     &nbsp;</a>
                   </li>
                   <li class="nav-item">
@@ -182,11 +177,17 @@
                     الشراكات البنكية  
                     &nbsp;</a>
                   </li>
-                  <!--<li class="nav-item">
+
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
+                        حلول البيع
+                    </a>
+                  </li>
+                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
                        اتصل بنا 
                        &nbsp;&nbsp; </a>
-                  </li>-->
+                  </li>
                 </ul>
 
 </div>
