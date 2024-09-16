@@ -172,7 +172,7 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#gograph1" role="tab">
-                    1986 - 2024 حكاية حي الربيع  
+                    1986 - 2024 <br>حكاية حي الربيع  
                     &nbsp;</a>
                   </li>
                   <li class="nav-item">
