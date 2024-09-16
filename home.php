@@ -44,7 +44,7 @@
 
     .sidebar a:hover {
       color: #f9f9f9;
-      background-color: #243d61;
+      background-color: #396099;
     }
 
     /* Add padding to the content to prevent overlap */
