@@ -43,7 +43,7 @@
     }
 
     .sidebar a:hover {
-      color: #f1f1f1;
+      color: #f9f9f9;
       background-color: #243d61;
     }
 
@@ -150,7 +150,7 @@
                  
                   <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#codes" role="tab">
-                       اكواد  البناء
+                       أكواد  البناء
                        &nbsp;&nbsp;</a>
                   </li>
               
@@ -163,6 +163,11 @@
                   <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#gograph" role="tab">
                     الموقع الجغرافي 
+                    &nbsp;</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#gograph" role="tab">
+                    تجول إفتراضي  
                     &nbsp;</a>
                   </li>
                   <li class="nav-item">
