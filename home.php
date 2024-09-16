@@ -29,7 +29,7 @@
       position: fixed;
       right: 0;
       top: 80px;
-      background-color: #e4e8ed;
+      background-color: #fcfcfd;
       padding-top: 60px;
       z-index: 1030; /* Ensure it is above other content */
     }
