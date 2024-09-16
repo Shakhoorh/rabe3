@@ -305,24 +305,27 @@ iframe {
                 <div class="card-header">
                   <ul class="nav nav-tabs justify-content-center" role="tablist">
                     <li class="nav-item">
-                      <a class="nav-link active" data-toggle="tab" href="#p1" role="tab">
-                      <i class="fas fa-file-pdf"></i>T3.2
-                      </a>
+                    <a style="background-color: yellow; color: black;" class="nav-link active" data-toggle="tab" href="#p1" role="tab">
+    <i class="fas fa-file-pdf"></i>T3.2
+</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" data-toggle="tab" href="#p2" role="tab">
-                      <i class="fas fa-file-pdf"></i> T4.1
-                      </a>
+                    <a style="background-color: pink; color: white;" class="nav-link" data-toggle="tab" href="#p2" role="tab">
+    <i class="fas fa-file-pdf"></i> T4.1
+</a>
+
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" data-toggle="tab" href="#p3" role="tab">
-                      <i class="fas fa-file-pdf"></i>T4.2
-                      </a>
+                    <a style="background-color: purple; color: black;" class="nav-link" data-toggle="tab" href="#p3" role="tab">
+    <i class="fas fa-file-pdf"></i> T4.2
+</a>
+
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" data-toggle="tab" href="#p4" role="tab">
-                      <i class="fas fa-file-pdf"></i>T5.3
-                      </a>
+                    <a style="background-color: red; color: white;" class="nav-link" data-toggle="tab" href="#p4" role="tab">
+    <i class="fas fa-file-pdf"></i> T5.3
+</a>
+
                     </li>
                   </ul>
                 </div>
