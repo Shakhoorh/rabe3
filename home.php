@@ -167,7 +167,7 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#gograph" role="tab">
-                    تجول إفتراضي  
+                     360 درجة تجول إفتراضي  
                     &nbsp;</a>
                   </li>
                   <li class="nav-item">
