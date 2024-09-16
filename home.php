@@ -167,12 +167,13 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#gograph" role="tab">
-                     360 درجة تجول إفتراضي  
+                     360ْ  تجول إفتراضي  
                     &nbsp;</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#gograph1" role="tab">
-                      حكاية حي الربيع 1986 -2024 
+                      1986 -2024<br>
+                      حكاية حي الربيع   
                         
                     &nbsp;</a>
                   </li>
