@@ -305,7 +305,7 @@ iframe {
                 <div class="card-header">
                   <ul class="nav nav-tabs justify-content-center" role="tablist">
                     <li class="nav-item">
-                    <a style="background-color: yellow; color: black;" class="nav-link active" data-toggle="tab" href="#p1" role="tab">
+                    <a style="background-color: yellow; color: white;" class="nav-link active" data-toggle="tab" href="#p1" role="tab">
     <i class="fas fa-file-pdf"></i>T3.2
 </a>
                     </li>
