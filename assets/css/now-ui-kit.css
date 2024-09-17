@@ -1474,7 +1474,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 
 .btn:hover,
 .navbar .navbar-nav>a.btn:hover {
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+  box-shadow: 0 3px 8px 0 rgba(27, 95, 173, 0.499);
 }
 
 .btn.disabled,
