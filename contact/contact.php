@@ -11,25 +11,13 @@
 </script>
 <?php include'header.php'?>
 
-<body class="index-page">
+<body>
 
   <?php include'nav.php'?>
 
   <main class="main">
 
-    <!-- Page Title -->
-    <div class="page-title dark-background" data-aos="fade">
-      <div class="container">
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Starter Page</li>
-          </ol>
-        </nav>
-        <h1>Starter Page</h1>
-      </div>
-    </div><!-- End Page Title -->
-
+    
     
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -45,7 +33,7 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-6">
+          <div class="col-lg-4">
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
             <i class="bi bi-geo-alt" style="color: #537bb4;"></i>
 
@@ -58,19 +46,33 @@
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-telephone" style="color: #537bb4;"></i>
               <h3>اتصل بنا</h3>
-              <p>+966 5399 838 38</p><br>
+              <p>+966 5399 838 38</p>
               <p>+966 5399 839 39</p>
+             
             </div>
           </div><!-- End Info Item -->
 
-          <div  style="color: #537bb4;" class="col-lg-3 col-md-6">
+          <div  style="color: #537bb4;" class="col-lg-2 col-md-4">
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-envelope" style="color: #537bb4;"></i>
               <h3>راسلنا</h3>
               <p>pmo@qiam.com.sa</p>
+              <br>
+            
             </div>
           </div><!-- End Info Item -->
+          <div  style="color: #537bb4;" class="col-lg-2 col-md-4">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+          <i class="bi bi-twitter-x"style="color: #537bb4;"></i> 
+              <h3>تواصل اجتماعي</h3>
+              <p></p>
+              <br>
+             
 
+    
+       
+            </div>
+          </div>
         </div>
         <div  style="color: #537bb4;" class="row gy-4 mt-1">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
@@ -117,9 +119,52 @@
 
 
   </main>
+  <style>
+      /* for desktop */
+      .whatsapp_float {
+          position: fixed;
+          width: 60px;
+          height: 60px;
+          bottom: 40px;
+          right: 40px;
+          background-color: #25d366;
+          color: #FFF;
+          border-radius: 50px;
+          text-align: center;
+          font-size: 30px;
+          box-shadow: 2px 2px 3px #999;
+          z-index: 100;
+      }
 
+      .whatsapp-icon {
+          margin-top: 16px;
+      }
+
+      /* for mobile */
+      @media screen and (max-width: 767px) {
+          .whatsapp-icon {
+              margin-top: 10px;
+          }
+
+          .whatsapp_float {
+              width: 40px;
+              height: 40px;
+              bottom: 20px;
+              right: 10px;
+              font-size: 22px;
+          }
+      }</style>
+<a
+        href="https://wa.me/966539449337"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i dir="ltr" class="fa fa-whatsapp whatsapp-icon"></i>
+      </a>
+   
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -129,9 +174,7 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
