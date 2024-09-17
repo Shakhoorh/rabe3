@@ -461,37 +461,11 @@ iframe {
 
 
                   <div class="tab-pane" id="contact" role="tabpanel">
-                  <div style="text-align: right;" dir="rtl">
-<p>
-شركة قيم العقارية <br>
+     
+                  <iframe width="100%" height="640" frameborder="0" allow="xr-spatial-tracking; gyroscope; accelerometer" 
+                  allowfullscreen  src="contact/contact.php"></iframe>
 
-
-سجل تجاري:    1010255420<br>
-
-
-رقم الترخيص:   44020078<br>
-
-
-رقم التصنيف:   380<br>
-
-
-رقم المعلن:      9756956 <br>
-
-
-•       هــــــــــاتف:       
-920025832<br>
-
-•       البريد الإلكتروني:      PMO@qiam.com.sa<br>
-
-
-•       مكتب رقم 7 ، مبنى رقم 8484، طريق عثمان بن عفان، حي الملك سلمان،
-الرياض ، 11666
-</p>
-
-<p>الجوال : 966539983838</p>
-
-<p><i class="fa fa-twitter"><a href="https://x.com/qiamre?lang=ar"> على منصة X</a></i></p>
-                  </div>
+                  
                   </div>
 
 
