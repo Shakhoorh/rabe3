@@ -43,7 +43,7 @@
     }
 
     .sidebar a:hover {
-      color: #f9f9f9;
+      color: #002633;
       background-color: #537bb4;
     }
 
@@ -138,40 +138,40 @@
              
                 <li class="nav-item">
                   
-                    <a class="nav-link active" data-toggle="tab" href="#home" role="tab">
+                    <a  data-toggle="tab" href="#home" role="tab">
                         معرض الصور
                         &nbsp;&nbsp; </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " data-toggle="tab" href="#bru1" role="tab">
+                    <a  data-toggle="tab" href="#bru1" role="tab">
                         البروشور
                         &nbsp;&nbsp; </a>
                   </li>
                  
                   <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#codes" role="tab">
+                    <a  data-toggle="tab" href="#codes" role="tab">
                        أكواد  البناء
                        &nbsp;&nbsp;</a>
                   </li>
               
                 
                   <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#promo" role="tab">
+                    <a  data-toggle="tab" href="#promo" role="tab">
                        الفيديو التسويقي
                        &nbsp;</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#gograph" role="tab">
+                    <a  data-toggle="tab" href="#gograph" role="tab">
                     الموقع الجغرافي 
                     &nbsp;</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#gograph" role="tab">
+                    <a  data-toggle="tab" href="#gograph" role="tab">
                      360ْ  تجول إفتراضي  
                     &nbsp;</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#gograph1" role="tab">
+                    <a  data-toggle="tab" href="#gograph1" role="tab">
                       حكاية حي الربيع   
                       <br>
                       1986 -2024
