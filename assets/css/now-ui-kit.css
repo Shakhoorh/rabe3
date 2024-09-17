@@ -3781,7 +3781,7 @@ body {
 
 .nav-pills.nav-pills-just-icons .nav-item .nav-link {
   text-align: center;
-  border-radius: 50%;
+  border-radius: 20%;
   height: 80px;
   width: 80px;
   padding: 0;
@@ -3800,11 +3800,11 @@ body {
 
 .nav-pills .nav-item .nav-link {
   padding: 10px 23px;
-  background-color: rgba(222, 222, 222, 0.3);
+  background-color: rgba(34, 122, 185, 0.3);
   min-width: 100px;
   font-weight: 400;
   text-align: center;
-  color: #444;
+  color: #114d63;
 }
 
 .nav-pills .nav-item .nav-link:hover {
