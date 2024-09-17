@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
 
- 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/png"  href="assets/img/qf.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>قيم العقارية</title>
@@ -160,37 +160,37 @@
                        الفيديو التسويقي
                        &nbsp;</a>
                   </li>
-                  <li class="nav-item">
+                <!--  <li class="nav-item">
                     <a  data-toggle="tab" href="#gograph" role="tab">
                     الموقع الجغرافي 
-                    &nbsp;</a>
+                    &nbsp;</a>-->
                   </li>
                   <li class="nav-item">
                     <a  data-toggle="tab" href="#gograph" role="tab">
-                     360ْ  تجول إفتراضي  
+                      تجول إفتراضي 360ْ  
                     &nbsp;</a>
                   </li>
                   <li class="nav-item">
                     <a  data-toggle="tab" href="#gograph1" role="tab">
                       حكاية حي الربيع   
                       <br>
-                      1986 -2024
+                      1986 - 2024
                         
                     &nbsp;</a>
                   </li>
                   <li class="nav-item">
-                    <a  data-toggle="tab" href="#bank" role="tab">
+                    <a  data-toggle="tab" href="#bankco" role="tab">
                     الشراكات البنكية  
                     &nbsp;</a>
                   </li>
 
                   <li class="nav-item">
-                    <a data-toggle="tab" href="#settings" role="tab">
+                    <a data-toggle="tab" href="#bank" role="tab">
                         حلول البيع
                     </a>
                   </li><br>
                  <li class="nav-item">
-                    <a  data-toggle="tab" href="#settings" role="tab">
+                    <a  data-toggle="tab" href="#contact" role="tab">
                        اتصل بنا 
                        &nbsp;&nbsp; </a>
                   </li>
@@ -407,6 +407,97 @@ iframe {
     </div>
                   </div>
 
+
+
+                  <div class="tab-pane" id="bankco" role="tabpanel">
+                  
+                 
+        <div class="modal-content"ir="rtl">
+        
+            <p style="text-align: right;">البنك الاهلي</p>
+          
+
+          <p style="text-align: center;">شركة الأهلي المالية </p>
+          <p style="text-align: center;"> شركة البنك الأهلي السعودي للتمويل المحدود </p>
+          <p style="text-align: center;">  شركة الأهلي المالية للاستثمار العقاري </p>
+          
+          
+      
+         
+        </div>
+
+        <div class="modal-content"ir="rtl">
+        
+        <p style="text-align: right;"> بنك الجزيرة</p>
+      
+
+      <p style="text-align: center;">شركة أمان العقارية </p>
+
+      
+  
+     
+    </div>
+
+    <div class="modal-content"ir="rtl">
+        
+        <p style="text-align: right;">البنك السعودي للاستثمار</p>
+      
+
+      <p style="text-align: center;">  أملاك العالمية للتمويل  </p>
+      
+      
+      
+  
+     
+    </div>
+    
+                  
+                  
+
+
+                  </div>
+
+
+
+
+                  <div class="tab-pane" id="contact" role="tabpanel">
+                  <div style="text-align: right;" dir="rtl">
+<p>
+شركة قيم العقارية <br>
+
+
+سجل تجاري:    1010255420<br>
+
+
+رقم الترخيص:   44020078<br>
+
+
+رقم التصنيف:   380<br>
+
+
+رقم المعلن:      9756956 <br>
+
+
+•       هــــــــــاتف:       
+920025832<br>
+
+•       البريد الإلكتروني:      PMO@qiam.com.sa<br>
+
+
+•       مكتب رقم 7 ، مبنى رقم 8484، طريق عثمان بن عفان، حي الملك سلمان،
+الرياض ، 11666
+</p>
+
+<p>الجوال : 966539983838</p>
+
+<p><i class="fa fa-twitter"><a href="https://x.com/qiamre?lang=ar"> على منصة X</a></i></p>
+                  </div>
+                  </div>
+
+
+
+
+
                   <div class="tab-pane" id="bank" role="tabpanel">
                     
 
@@ -418,7 +509,7 @@ iframe {
             </div>
           </div>
           
-            <p class="category" style="text-align: center;">تحالفات</p>
+            <p style="text-align: center;">تحالفات</p>
       
          
         </div>
@@ -432,7 +523,7 @@ iframe {
             </div>
           </div>
           
-            <p class="category" style="text-align: center;"> صناديق عقارية</p>
+            <p style="text-align: center;"> صناديق عقارية</p>
           
          
         </div>
@@ -445,7 +536,7 @@ iframe {
             </div>
           </div>
           
-            <p class="category" style="text-align: center;">تمويل بنكي</p>
+            <p style="text-align: center;">تمويل بنكي</p>
           
          
         </div>
