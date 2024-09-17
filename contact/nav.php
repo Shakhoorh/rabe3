@@ -13,10 +13,8 @@ body {
          <a href="tel:+966 539 449 337"><i style="color: #537bb4;" class="bi bi-phone d-flex align-items-center ms-4"><span>+966 539 44 9337</span></i></a>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
-          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="https://x.com/QiamRE?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="twitter"><i class="bi bi-twitter-x"></i></a>
+         
         </div>
       </div>
     </div><!-- End Top Bar -->
