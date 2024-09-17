@@ -5300,7 +5300,7 @@ img {
 }
 
 .modal.modal-mini .modal-dialog {
-  max-width: 255px;
+  max-width: 150px;
   margin: 0 auto;
 }
 

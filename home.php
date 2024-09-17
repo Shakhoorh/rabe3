@@ -179,7 +179,7 @@
                     &nbsp;</a>
                   </li>
                   <li class="nav-item">
-                    <a  data-toggle="tab" href="#settings" role="tab">
+                    <a  data-toggle="tab" href="#bank" role="tab">
                     الشراكات البنكية  
                     &nbsp;</a>
                   </li>
@@ -390,7 +390,7 @@ iframe {
                     <p class="category">   
 حكاية حي الربيع من 1986 الى 2024                    </p>
         <video width="100%" height="440" autoplay muted loop>
-            <source src="assets/img/rab.mp4" type="video/mp4">
+            <source src="assets/img/rb.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
@@ -407,10 +407,51 @@ iframe {
     </div>
                   </div>
 
-                  <div class="tab-pane" id="settings" role="tabpanel">
-                    <p>
-                      
-                    </p>
+                  <div class="tab-pane" id="bank" role="tabpanel">
+                    
+
+                  <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
+            <div class="modal-profile">
+              <i class="now-ui-icons loader_refresh large"></i>
+            </div>
+          </div>
+          
+            <p class="category" style="text-align: center;">تحالفات</p>
+      
+         
+        </div>
+      </div>
+
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
+            <div class="modal-profile">
+              <i class="now-ui-icons business_bank large"></i>
+            </div>
+          </div>
+          
+            <p class="category" style="text-align: center;"> صناديق عقارية</p>
+          
+         
+        </div>
+      </div>
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
+            <div class="modal-profile">
+              <i class="now-ui-icons business_money-coins large"></i>
+            </div>
+          </div>
+          
+            <p class="category" style="text-align: center;">تمويل بنكي</p>
+          
+         
+        </div>
+      </div>
+
+
                   </div>
 
 
