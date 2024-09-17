@@ -108,12 +108,12 @@
     <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-primary fixed-top">
     <div class="container">
-      <div class="navbar-translate">
+      
       <img src="assets/img/q.png"  style="float:right; width: 95px; ">
       
        
-      </div>
-      <img src="assets/img/Artboard 1.png"  style="float:left; width: 60px; ">
+      
+      <img src="assets/img/Artboard1.png"  style="float:left; width: 60px; ">
     </div>
   </nav>
     <!-- Your content goes here -->
