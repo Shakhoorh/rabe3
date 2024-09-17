@@ -38,7 +38,7 @@
             <i class="bi bi-geo-alt" style="color: #537bb4;"></i>
 
               <h3>العنوان</h3>
-              <p>PPVG+22V, King Salman Neighborhood, Riyadh 12443</p>
+              <p style="text-align: center;">PPVG+22V, King Salman Neighborhood, Riyadh 12443</p>
             </div>
           </div><!-- End Info Item -->
 

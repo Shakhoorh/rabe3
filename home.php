@@ -412,44 +412,12 @@ iframe {
                   <div class="tab-pane" id="bankco" role="tabpanel">
                   
                  
-        <div class="modal-content"ir="rtl">
-        
-            <p style="text-align: right;">البنك الاهلي</p>
-          
-
-          <p style="text-align: center;">شركة الأهلي المالية </p>
-          <p style="text-align: center;"> شركة البنك الأهلي السعودي للتمويل المحدود </p>
-          <p style="text-align: center;">  شركة الأهلي المالية للاستثمار العقاري </p>
-          
-          
-      
-         
-        </div>
-
-        <div class="modal-content"ir="rtl">
-        
-        <p style="text-align: right;"> بنك الجزيرة</p>
-      
-
-      <p style="text-align: center;">شركة أمان العقارية </p>
-
+                  <iframe width="100%" height="640" frameborder="0" allow="xr-spatial-tracking; gyroscope; accelerometer" 
+                  allowfullscreen  src="contact/bankco.php"></iframe>
       
   
      
-    </div>
-
-    <div class="modal-content"ir="rtl">
-        
-        <p style="text-align: right;">البنك السعودي للاستثمار</p>
-      
-
-      <p style="text-align: center;">  أملاك العالمية للتمويل  </p>
-      
-      
-      
-  
-     
-    </div>
+    
     
                   
                   
