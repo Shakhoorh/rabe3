@@ -209,7 +209,7 @@
 
                   <div class="tab-pane active" id="home" role="tabpanel">
                   <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-<a href="https://logwork.com/countdown-gg9g" class="countdown-timer" data-style="circles" data-timezone="Asia/Riyadh" data-date="2024-09-20 10:00" data-background="#3b9ccc"> </a>
+<a href="https://logwork.com/countdown-gg9g" class="countdown-timer" data-style="circles" data-timezone="Asia/Riyadh" data-date="2024-10-1 10:00" data-background="#3b9ccc"> </a>
       
                   <div class="section" id="carousel">
                     
