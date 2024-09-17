@@ -3832,7 +3832,7 @@ body {
 }
 
 .nav-pills.nav-pills-neutral .nav-item .nav-link {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(40, 149, 204, 0.366);
   color: #FFFFFF;
 }
 
@@ -4489,7 +4489,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .nav-tabs.nav-tabs-neutral>.nav-item>.nav-link.active {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(54, 219, 225, 0.2);
   color: #FFFFFF;
 }
 
@@ -6469,11 +6469,11 @@ img {
   color: #FFFFFF;
 }
 
-[data-background-color]:not([data-background-color="gray"]) .nav-tabs>.nav-item>.nav-link i.now-ui-icons {
+[data-background-color]:not([data-background-color="#2586b6"]) .nav-tabs>.nav-item>.nav-link i.now-ui-icons {
   color: #FFFFFF;
 }
 
-[data-background-color]:not([data-background-color="gray"]).section-nucleo-icons .icons-container i:nth-child(6) {
+[data-background-color]:not([data-background-color="#2586b6"]).section-nucleo-icons .icons-container i:nth-child(6) {
   color: #FFFFFF;
 }
 
