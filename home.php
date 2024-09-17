@@ -247,19 +247,19 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block" src="assets/img/1.JPG" alt="Third slide">
+                  <img class="d-block" src="assets/img/img1.JPG" alt="Third slide">
                   <div class="carousel-caption d-none d-md-block">
                  
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block" src="assets/img/2.JPG" alt="Third slide">
+                  <img class="d-block" src="assets/img/img2.JPG" alt="Third slide">
                   <div class="carousel-caption d-none d-md-block">
                  
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block" src="assets/img/3.JPG" alt="Third slide">
+                  <img class="d-block" src="assets/img/img3.JPG" alt="Third slide">
                   <div class="carousel-caption d-none d-md-block">
                  
                   </div>
