@@ -242,6 +242,24 @@
                  
                   </div>
                 </div>
+                <div class="carousel-item">
+                  <img class="d-block" src="assets/img/1.JPG" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                 
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block" src="assets/img/2.JPG" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                 
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block" src="assets/img/3.JPG" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                 
+                  </div>
+                </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <i class="now-ui-icons arrows-1_minimal-left"></i>
