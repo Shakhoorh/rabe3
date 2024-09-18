@@ -144,7 +144,7 @@
             feedbackElement.classList.remove('incorrect');
             
             // Redirect to the URL when the PIN is correct
-            window.location.href = "home.php";
+            window.location.href = "intro.php";
           } else if (this.input.length === this.length && enteredPIN !== this.correctPIN) {
             feedbackElement.textContent = "Incorrect PIN. Try again.";
             feedbackElement.classList.add('incorrect');

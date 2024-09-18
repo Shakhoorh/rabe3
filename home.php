@@ -1,515 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="icon" type="image/png"  href="assets/img/qf.png">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>قيم العقارية</title>
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-  <!--     Fonts and icons     -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <!-- CSS Files -->
-  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="./assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
-  <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="./assets/demo/demo.css" rel="stylesheet" />
-  <link href='https://fonts.googleapis.com/css?family=Noto Kufi Arabic' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PIN Code Entry</title>
+  <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script> <!-- Alpine.js -->
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-    font-family: 'Noto Kufi Arabic';font-size: 22px;
-}
-    /* Custom styles for the right sidebar */
-    .sidebar {
-      height: 100%;
-      width: 230px;
-      position: fixed;
-      right: 0;
-      top: 80px;
-      background-color: #fcfcfd;
-      padding-top: 60px;
-      z-index: 1030; /* Ensure it is above other content */
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
     }
 
-    .sidebar a {
-      padding: 10px 15px;
-      text-decoration: none;
-      font-size: 18px;
-      color: #002633;
-      display: block;
+    .container {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 600px;
+      width: 100%;
     }
 
-    .sidebar a:hover {
-      color: #002633;
-      background-color: #537bb4;
+    .container p {
+      margin-bottom: 20px;
+      font-size: 1.2rem;
+      color: #333;
     }
 
-    /* Add padding to the content to prevent overlap */
-    .content {
-      margin-right: 260px;
+    .pin-inputs {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .pin-inputs input {
+      width: 50px;
+      height: 70px;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-align: center;
+      border: 2px solid #537bb4;
+      border-radius: 8px;
+      background-color: #ffffff;
+      color: #333;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .pin-inputs input:focus {
+      border-color: #3b6fb4;
+      outline: none;
+      box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    }
+
+    .feedback {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #537bb4;
+    }
+
+    .feedback.correct {
+      color: green;
+    }
+
+    .feedback.incorrect {
+      color: red;
     }
   </style>
-    <style>
-        /* Style for the video loader */
-        #videoLoader {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100vh;
-            z-index: 9999;
-            background-color: black;
-        }
-        
-        #videoLoader video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        
-        /* Hide the content of the website initially */
-        #content {
-            display: none;
-        }
-    </style>
 </head>
 <body>
 
-    <!-- Video loader -->
-    <div id="videoLoader">
-        <video autoplay muted>
-            <source src="assets/img/Loading1.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-
-    <!-- Website content -->
-    <div id="content">
-
-
-    <script>
-        // Wait for 4 seconds, then hide the video loader and show the content
-        window.onload = function() {
-            setTimeout(function() {
-                document.getElementById('videoLoader').style.display = 'none';
-                document.getElementById('content').style.display = 'block';
-            }, 4000); // 4000 milliseconds = 4 seconds
-        };
-    </script>
-
-
-  <!-- Right Sidebar -->
-
-
-  <div class="wrapper content">
-    <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-primary fixed-top">
-    <div class="container">
-      
-      <img src="assets/img/q.png"  style="float:right; width: 95px; ">
-      
-       
-      
-      <img src="assets/img/Artboard1.png"  style="float:left; width: 60px; ">
-    </div>
-  </nav>
-    <!-- Your content goes here -->
-    <div class="section section-tabs">
-      <div class="container">
-      <br>
-      <div class="col-md-10 ml-auto col-xl-12 mr-auto">
-
-      <p style="text-align: right;"> مزاد ربيع الرياض - إطلاق تجريبي</P>
-      </div>      
-<div class="row">
-          <div class="col-md-10 ml-auto col-xl-12 mr-auto">
-            <p class="category">    </p>
-            <!-- Nav tabs -->
-            <div class="card">
-              
-              <div class="card-header">
-              
-              <div dir="rtl" class="sidebar">
-              
-                <ul class="nav nav-tabs justify-content-center" role="tablist">
-             
-                <li class="nav-item">
-                  
-                    <a  data-toggle="tab" href="#home" role="tab">
-                        معرض الصور
-                        &nbsp;&nbsp; </a>
-                  </li>
-                  <li class="nav-item">
-                    <a  data-toggle="tab" href="#bru1" role="tab">
-                        البروشور
-                        &nbsp;&nbsp; </a>
-                  </li>
-                 
-                  <li class="nav-item">
-                    <a  data-toggle="tab" href="#codes" role="tab">
-                       أكواد  البناء
-                       &nbsp;&nbsp;</a>
-                  </li>
-              
-                
-                  <li class="nav-item">
-                    <a  data-toggle="tab" href="#promo" role="tab">
-                       الفيديو التسويقي
-                       &nbsp;</a>
-                  </li>
-                <!--  <li class="nav-item">
-                    <a  data-toggle="tab" href="#gograph" role="tab">
-                    الموقع الجغرافي 
-                    &nbsp;</a>-->
-                  </li>
-                  <li class="nav-item">
-                    <a  data-toggle="tab" href="#gograph" role="tab">
-                      تجول إفتراضي 360ْ  
-                    &nbsp;</a>
-                  </li>
-                  <li class="nav-item">
-                    <a  data-toggle="tab" href="#gograph1" role="tab">
-                      حكاية حي الربيع   
-                      <br>
-                      1986 - 2024
-                        
-                    &nbsp;</a>
-                  </li>
-                  <li class="nav-item">
-                    <a  data-toggle="tab" href="#bankco" role="tab">
-                    الشراكات البنكية  
-                    &nbsp;</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a data-toggle="tab" href="#bank" role="tab">
-                        حلول البيع
-                    </a>
-                  </li><br>
-                 <li class="nav-item">
-                    <a  data-toggle="tab" href="#contact" role="tab">
-                       اتصل بنا 
-                       &nbsp;&nbsp; </a>
-                  </li>
-                </ul>
-
-</div>
-
-              </div>
-              <div class="card-body">
-                <!-- Tab panes -->
-                <div class="tab-content ">
-
-
-
-
-
-                  <div class="tab-pane active" id="home" role="tabpanel">
-                  <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-<a href="https://logwork.com/countdown-gg9g" class="countdown-timer" data-style="circles" data-timezone="Asia/Riyadh" data-date="2024-10-1 10:00" data-background="#3b9ccc"> </a>
-      
-                  <div class="section" id="carousel">
-                    
-      <div class="container">
-        
-        <div class="row justify-content-center">
-          
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-
-              </ol>
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                  <img class="d-block" src="assets/img/shwo2.jpg" alt="First slide">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5></h5>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block" src="assets/img/show3.jpg" alt="Second slide">
-                  <div class="carousel-caption d-none d-md-block">
-            
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block" src="assets/img/shwo1.jpg" alt="Third slide">
-                  <div class="carousel-caption d-none d-md-block">
-                 
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block" src="assets/img/img1.JPG" alt="Third slide">
-                  <div class="carousel-caption d-none d-md-block">
-                 
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block" src="assets/img/img2.JPG" alt="Third slide">
-                  <div class="carousel-caption d-none d-md-block">
-                 
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block" src="assets/img/img3.JPG" alt="Third slide">
-                  <div class="carousel-caption d-none d-md-block">
-                 
-                  </div>
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <i class="now-ui-icons arrows-1_minimal-left"></i>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <i class="now-ui-icons arrows-1_minimal-right"></i>
-              </a>
-            </div>
-         
-        </div>
+  <div class="container">
+    <p>Enter Your 9-Digit PIN</p>
+    <div x-data="pincode()" x-init="$refs['pin1'].focus()" class="pin-code"> <!-- Autofocus on first input -->
+      <div class="pin-inputs">
+        <template x-for="i in length" :key="i">
+          <input type="text" :name="'pin'+i" maxlength="1"
+                 class="unselectable"
+                 @paste.prevent="paste($event)"
+                 @input="autoMoveNext($event, i)"
+                 @keydown.ctrl.a.prevent
+                 @keydown.arrow-right.prevent="goto(i + 1)"
+                 @keydown.arrow-left.prevent="goto(i - 1)"
+                 :value="input[i-1] != null ? input[i-1] : ''" 
+                 x-ref="'pin'+i" placeholder="-" <!-- Changed placeholder to '-' -->
+                 :disabled="false">
+        </template>
       </div>
+      <div class="feedback" id="feedback"></div>
     </div>
-
-
-
-                  </div>
-                  <div class="tab-pane" id="bru1" role="tabpanel">
-                  <iframe width="100%" height="640" frameborder="0" allow="xr-spatial-tracking; gyroscope; accelerometer" 
-                  allowfullscreen scrolling="no" src="assets/img/br.pdf"></iframe>
-                </div>
-
-
-
-
-
-                  <div class="tab-pane" id="gograph" role="tabpanel">
-                   
-
-                  <style>
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-}
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-iframe {
-  max-width: calc(100vw - (var(--margin) * 2));
-  max-height: calc((100vw - (var(--margin) * 2)) / 1.7778); /* 16:9 */
-}
-
-</style>
-
-
-<iframe width="100%" height="640" frameborder="0" allow="xr-spatial-tracking; gyroscope; accelerometer" allowfullscreen scrolling="no" src="https://kuula.co/share/5BR1R?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1"></iframe>
-                  </div>
-
-
-
-
-
-                  <div class="tab-pane" id="codes" role="tabpanel">
-   
-    
-    <div dir="rtl" style="text-align: right;"class="col-md-10 ml-auto col-xl-12 mr-auto">
-              <p class="category">اكواد البناء :</p>
-              <!-- Nav tabs -->
-              <div class="card">
-                <div class="card-header">
-                  <ul class="nav nav-tabs justify-content-center" role="tablist">
-                    <li class="nav-item">
-                    <a style="background-color: #e8cb48; color: white;" class="nav-link active" data-toggle="tab" href="#p1" role="tab">
-    <i class="fas fa-file-pdf"></i>T3.2
-</a>
-                    </li>
-                    <li class="nav-item">
-                    <a style="background-color: #cc43c7; color: white;" class="nav-link" data-toggle="tab" href="#p2" role="tab">
-    <i class="fas fa-file-pdf"></i> T4.1
-</a>
-
-                    </li>
-                    <li class="nav-item">
-                    <a style="background-color: purple; color: white;" class="nav-link" data-toggle="tab" href="#p3" role="tab">
-    <i class="fas fa-file-pdf"></i> T4.2
-</a>
-
-                    </li>
-                    <li class="nav-item">
-                    <a style="background-color: red; color: white;" class="nav-link" data-toggle="tab" href="#p4" role="tab">
-    <i class="fas fa-file-pdf"></i> T5.3
-</a>
-
-                    </li>
-                  </ul>
-                </div>
-                <div class="card-body">
-                  <!-- Tab panes -->
-                  <div class="tab-content text-center">
-                    <div class="tab-pane active" id="p1" role="tabpanel">
-                    <iframe width="100%" height="640" frameborder="0" allow="xr-spatial-tracking; gyroscope; accelerometer" 
-                    allowfullscreen scrolling="no" src="assets/img/T3.2.pdf"></iframe>
-                    </div>
-                    <div class="tab-pane" id="p2" role="tabpanel">
-                    <iframe width="100%" height="640" frameborder="0" allow="xr-spatial-tracking; gyroscope; accelerometer" 
-                    allowfullscreen scrolling="no" src="assets/img/T4.1.pdf"></iframe>
-                    </div>
-                    <div class="tab-pane" id="p3" role="tabpanel">
-                    <iframe width="100%" height="640" frameborder="0" allow="xr-spatial-tracking; gyroscope; accelerometer" 
-                    allowfullscreen scrolling="no" src="assets/img/T4.2.pdf"></iframe>
-                    </div>
-                    <div class="tab-pane" id="p4" role="tabpanel">
-                    <iframe width="100%" height="640" frameborder="0" allow="xr-spatial-tracking; gyroscope; accelerometer" 
-                    allowfullscreen scrolling="no" src="assets/img/T5.3.pdf"></iframe>
-                    </div>
-                  </div>
-                </div>
-              
-            </div>
-</div>
-
-<!-- Add this Font Awesome script if not already included -->
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
-</div>
-
-
-                  <div class="tab-pane" id="gograph1" role="tabpanel">
-                  <div style="text-align: right;" dir="rtl">
-                    <p class="category">   
-حكاية حي الربيع من 1986 الى 2024                    </p>
-        <video width="100%" height="440" autoplay muted loop>
-            <source src="assets/img/rb.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-                  </div>
-
-
-                  <div class="tab-pane" id="promo" role="tabpanel">
-                  <div style="text-align: right;" dir="rtl">
-                    <p class="category">  الفيديو التسويقي : مسودة</p>
-        <video width="100%" height="440" autoplay muted loop>
-            <source src="assets/img/promo.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-                  </div>
-
-
-
-                  <div class="tab-pane" id="bankco" role="tabpanel">
-                  
-                 
-                  <iframe width="100%" height="640" frameborder="0" allow="xr-spatial-tracking; gyroscope; accelerometer" 
-                  allowfullscreen  src="contact/bankco.php"></iframe>
-      
-  
-     
-    
-    
-                  
-                  
-
-
-                  </div>
-
-
-
-
-                  <div class="tab-pane" id="contact" role="tabpanel">
-     
-                  <iframe width="100%" height="640" frameborder="0" allow="xr-spatial-tracking; gyroscope; accelerometer" 
-                  allowfullscreen  src="contact/contact.php"></iframe>
-
-                  
-                  </div>
-
-
-
-
-
-                  <div class="tab-pane" id="bank" role="tabpanel">
-                    
-
-                  <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header justify-content-center">
-            <div class="modal-profile">
-              <i class="now-ui-icons loader_refresh large"></i>
-            </div>
-          </div>
-          
-            <p style="text-align: center;">تحالفات</p>
-      
-         
-        </div>
-      </div>
-
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header justify-content-center">
-            <div class="modal-profile">
-              <i class="now-ui-icons business_bank large"></i>
-            </div>
-          </div>
-          
-            <p style="text-align: center;"> صناديق عقارية</p>
-          
-         
-        </div>
-      </div>
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header justify-content-center">
-            <div class="modal-profile">
-              <i class="now-ui-icons business_money-coins large"></i>
-            </div>
-          </div>
-          
-            <p style="text-align: center;">تمويل بنكي</p>
-          
-         
-        </div>
-      </div>
-
-
-                  </div>
-
-
-
-
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-
-</div>
   </div>
 
-  <!--   Core JS Files   -->
-  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/bootstrap-switch.js"></script>
-  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
-  <script src="./assets/js/now-ui-kit.js?v=1.3.0" type="text/javascript"></script>
-</body>
+  <script>
+    function pincode() {
+      return {
+        length: 9,  // Number of PIN digits
+        input: [],
+        correctPIN: '920000100',  // Correct PIN
+        paste(event) {
+          const pastedData = event.clipboardData.getData('text').slice(0, this.length);
+          this.input = pastedData.split('');
+          this.checkPIN();
+        },
+        autoMoveNext(event, index) {
+          const key = event.target.value;
+          // Check for valid numeric input
+          if (!isNaN(key) && key.trim() !== '') {
+            this.input[index - 1] = key; // Store input value
+            // Move to the next input if not at the last one
+            if (index < this.length) {
+              this.goto(index + 1);
+            } else {
+              this.checkPIN(); // If last input, check PIN
+            }
+          } else if (event.inputType === 'deleteContentBackward') {
+            // Handle backspace
+            this.input[index - 1] = null; // Clear input
+            if (index > 1) {
+              this.goto(index - 1); // Move to the previous input
+            }
+          }
+        },
+        goto(index) {
+          if (index > 0 && index <= this.length) {
+            this.$refs['pin' + index].focus(); // Focus on the given input
+          }
+        },
+        checkPIN() {
+          const enteredPIN = this.input.join('');
+          const feedbackElement = document.getElementById('feedback');
+          
+          if (enteredPIN === this.correctPIN) {
+            feedbackElement.textContent = "Correct PIN!";
+            feedbackElement.classList.add('correct');
+            feedbackElement.classList.remove('incorrect');
+            
+            // Redirect to the URL when the PIN is correct
+            window.location.href = "intro.php";
+          } else if (this.input.length === this.length && enteredPIN !== this.correctPIN) {
+            feedbackElement.textContent = "Incorrect PIN. Try again.";
+            feedbackElement.classList.add('incorrect');
+            feedbackElement.classList.remove('correct');
+          } else {
+            feedbackElement.textContent = '';
+          }
+        }
+      };
+    }
+  </script>
 
+</body>
 </html>
