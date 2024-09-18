@@ -241,7 +241,7 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block" src="assets/img/1.jpg" alt="Third slide">
+                  <img class="d-block" src="assets/img/shwo1.jpg" alt="Third slide">
                   <div class="carousel-caption d-none d-md-block">
                  
                   </div>
